@@ -1,8 +1,8 @@
 # 项目交接
 
-> 最后更新：2026-07-24 20:55 +08:00
+> 最后更新：2026-07-24 21:02 +08:00
 > 仓库：`D:\DeviceCare_Agent\DeviceCareAgent`
-> 分支：`main`
+> 分支：`codex/multi-agent-workflow`
 
 本文件只记录当前状态、阻塞项和下一步；产品与技术细节分别回到对应权威文档。
 
@@ -15,7 +15,7 @@
 - 已建立精简的多 Agent 开发协议：主 Agent 统一编排，默认按需使用 0–3 个子 Agent，先定义流程与任务契约，再考虑 Skill 和项目专用 Agent。
 - `docs/development-workflow.md` 已定义任务契约、文件所有权、四个质量门和首个垂直切片试运行方案；该流程尚未经过真实业务切片验证。
 - 文档已按单一职责压缩，尚未创建业务代码和依赖。
-- Git 远端为 `HieronymusF/DeviceCareAgent`；当前文档改动尚未提交或推送。
+- 项目文档与多 Agent 工作流基线已提交为 `2bad093` 并推送到 `origin/codex/multi-agent-workflow`；尚未创建 PR 或合并到 `main`。
 
 ## 当前阻塞
 
