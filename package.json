@@ -1,0 +1,23 @@
+{
+  "name": "devicecare-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval:m1:validate": "node evals/m1/validate-frozen-set.ts",
+    "check": "npm run typecheck && npm run test && npm run eval:m1:validate"
+  },
+  "dependencies": {
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  }
+}
